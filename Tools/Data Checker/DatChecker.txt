@@ -1,0 +1,234 @@
+The following is a copy of the contents from DatChecker's web site
+when that web site still existed.
+
+Humble Programmer  Freeware - DatChecker
+
+DatChecker is a utility designed to catalog and validate all of the object
+(*.DAT) files used by the game Rollercoaster Tycoon 2 (RCT2).  In addition,
+beginning with v1.5 of DatChecker, the graphic images associated with each
+object can be viewed by double-clicking on the object.
+
+    Latest Version
+
+*v1.12* / 27 Jul '11 / md5sum:  3a1ef1fcc278d5c6f48f9f3371757ca0
+
+    Installation & Usage
+
+Copy the DatChecker.exe file to your Rollercoaster Tycoon 2 directory
+(typically C:\Program Files\Infogrames\Rollercoaster Tycoon 2).  Double
+click on the icon to start the application, and enter the directory of
+the RCT2 ObjData folder in the edit box at the top, or click on the
+'...' button and select any folder that contains *.DAT files.
+
+Once the folder is selected, click on the "Check" button to examine all
+the *.DAT files therein, or manually drag one or more *.DAT files and
+drop them on the main DatChecker window.
+
+Clicking on the "Export" button will create a file named DatChecker.csv
+in the same directory as the DatChecker.exe file.  This is a text file
+containing all of the object data in "Comma Separated Value" format.
+
+The following information is displayed for each .DAT file:
+
+  *Status*  Green flag (OK), Yellow flag (WARNING), or Red flag (ERROR).
+  *Source*  RCT2    Original game
+            WW      Wacky Worlds add-on
+            TT      Time Twister add-on
+            custom  User-created object
+            ??      Unrecognized object type
+  *File*  .DAT file name.
+  *Name*  Internal object name.
+  *Type*  Type of object.
+  *Size*  Size of the (uncompressed) object data in bytes.
+  *MD5 Hash*  A unique 128-bit signature of the uncompressed object data.
+  *Strings*  First entry in the object's string table.
+  *Details*  Information as to why a flag is yellow (warning)
+             or red (fatal error).
+
+In addition, you can right-click on any object line and select one or more
+of the following options from the context menu:
+
+  *View...*  Displays the object's graphic image; the image will be scaled
+             to fit the window.
+  *Properties*  Displays the following information about the selected object:
+    * Size of the file in bytes
+    * Date the file was first created/installed
+    * Date the file was last changed
+    * Internal CRC of the compressed object data and name
+    * Number of internal images
+    * String Table entries
+  *Remove*  Removes the selected object from the list.  This doesn't affect
+            the .DAT file in any way, it just removes the item from the list.
+  *Archive*  Adds the selected object file to the DatChecker Archive.zip file,
+             then deletes the original *.DAT file.  *Note*: if the file
+             could not be added to the .zip archive, it is *not* deleted.
+  *Clone*  Create a duplicate of the selected object with a different
+           object name.
+  *Delete*  Permanently deletes the *.DAT file for the selected object
+            and removes it from the list.  *Warning*: this action cannot
+            be undone!
+
+    Mini-FAQ
+
+*Q:* Why do I need this utility?
+*A:* When RCT2 loads a corrupt or invalid object file, it exits with an
+error... but doesn't tell you which *.DAT file caused it.  This utility
+will make sure all your .DAT files are OK by identifying any objects
+with bad CRCs or corrupt data.  In addition, it will also identify all
+custom objects so that they can be removed from your ObjData folder.
+
+*Q:* Which versions of Windows will DatChecker run on?
+*A:* DatChecker uses features of the Windows user interface that were
+first introduced in Windows 2000 and/or Windows ME, some of which have
+been retrofitted to earlier versions through Service Packs or Internet
+Explorer updates.  DatChecker will display a warning on older versions
+of Windows, but will still try to run as best it can.  There were some
+initial reports about the window re-sizing not working under Windows 98,
+but I've never been able to duplicate the problem.  DatChecker is fully
+compatible with 64-bit systems.
+
+*Q:* Can I use it to find duplicate objects?
+*A:* Yes: sort the display by MD5 Hash, and any files with the same
+'fingerprint' are duplicates.  Unlike the internal CRC, which includes the
+object name, the MD5 Hash is based only on the uncompressed object data,
+so two or more objects with identical data (but different names) will
+have the same MD5 values.
+
+*Q:* How does 'archiving' work?
+*A:* Right-click on a selected object to display the context menu, and
+select *Archive*.  This will add the object file to DatChecker Archive.zip
+and then delete the original *.DAT file if successful.  To 'undo' this action,
+extract the file from DatChecker Archive.zip, which is created in the same
+directory as the DatChecker.exe program file, using WinZip or any
+work-alike utility.
+
+*Q:* DatChecker says that *ALL* of my object files are invalid!
+What's going on?
+*A:* DatChecker compares the object CRC and size against those
+distributed with the *US version* of RCT2 and the expansion packs (Wacky
+Worlds and Time Twister), so this may happen if you are using a version
+released in a different country or language.  To stop DatChecker from
+verifying objects, create a shortcut to the DatChecker.exe program and
+add the parameter --noverify to the command line.
+
+*Q:* I don't recognize the ride that is displayed in the screen shot.
+What is it?
+*A:* The ride depicted in the screen shot is the Tilted Whirler by The
+Amazing Earl <http://www.amazingearl.com>, and was used with his consent.
+
+*Q:* What's with the weird colors in the object images?  They don't
+look anything like what's displayed in the game...
+*A:* Many objects are 're-colorable', i.e., the user can change the
+color of parts of the object when it is placed on the map.  These are
+more correctly known as 'map-able' colors, and are displayed in the
+object image window as shades of bright green and purple.
+
+*Q:* Can I turn off the gridlines in the object image view?
+*A:* Yes: create a shortcut to the DatChecker.exe program and add the
+parameter --nogrid to the command line.
+
+*Q:* I found a bug...can you fix it?
+*A:* Yes, but only if you can describe the problem well enough for me
+to re-create it.  At the very least, I'll need the .DAT file that caused
+the error; you don't need to go into great detail about your computer,
+but knowing which version of Windows you're using would help.  This
+utility was tested on XP and 2000, but your mileage may vary.
+
+*Q:* Is DatChecker really free?
+*A:* Yup.  Besides, any money I could make from selling it wouldn't
+even begin to cover the legal expenses of being sued by Infogrames for
+the rather blatant copyright infringement(s).  If you like it, send me a
+note telling me what you like about it...that's enough payment in itself.
+
+    Change Log
+
+v1.12 / 27 Jul '11:
+    * Added the "Strings" column and *Export* button, based on
+      suggestions by Jay Midura.
+    * Recompiled with Visual Studio 2010 and v8.1 of the Windows
+      Template Library <http://sourceforge.net/projects/wtl/>.
+
+v1.11 / 29 Oct '04:
+    * Added --transparent command line flag to change the "transparent
+      color" in object view;
+    * Recompiled with v7.5.4291 of the Windows Template Library
+      <http://sourceforge.net/projects/wtl/>.
+
+v1.10 / 20 May '04:
+    * Added --custom command line flag to display only custom objects;
+    * Made object data parsing and drawing a little bit faster;
+    * Fixed bug when multiple files are dropped on the main window;
+    * Recompiled with v7.5.4196 of the Windows Template Library
+      <http://sourceforge.net/projects/wtl/>.
+
+v1.9 / 27 Feb '04:
+    * Added *Remove *command to the context menu, which removes the
+      selected *.DAT file from list;
+    * Added "File size too large" warning;
+    * Double-clicking in title bar of object image dialog
+      maximizes/restores the window;
+    * Files can be dragged and dropped on the main DatChecker window;
+    * Windows now remember their previous size/position between sessions.
+
+v1.8 / 21 Jan '04:
+    * Created German language version with help from Roman Kahl of
+      Planet-RCT <http://www.planet-rct.de/>;
+    * Renamed *Object* column to *Name*;
+    * Corrected invalid verification data for several TT objects;
+    * Added *Archive* command to context menu, which moves the selected
+      *.DAT file to DatChecker Archive.zip.
+
+v1.7 / 19 Jan '04:
+    * Changed warning flag color from red to yellow for non-fatal errors;
+    * Added warning message for versions of Windows prior to Windows 2000/ME;
+    * Added *Image Count* field to Properties dialog;
+    * Moved  the 'Name' column to the *String Table* field on the
+      Properties dialog;
+    * Added --language=0x?? command line flag to change language
+      displayed in the *String Table* field.
+
+v1.6 / 15 Jan '04:
+    * Object graphic images can be copied to the clipboard using the
+      *Copy to Clipboard* button on the object view dialog;
+    * Object images displayed as a grid above 4x magnification; use
+      --nogrid command line flag to turn grid lines off.
+    * Scaling of object graphics smoother, but now limited to integral
+      scale increments;
+    * Object verification now defaults to *ON*; replaced --verify
+      command line flag with --noverify to turn verification off.
+
+    System Requirements
+
+Windows ME / NT4+SP3  / 2000 / XP
+
+"ROLLERCOASTER TYCOON 2" is a commercial game, which is copyrighted by
+Chris Sawyer and distributed by Microprose / Hasbro / Infogrames.  This
+program is in no way affiliated with or recognized by Chris Sawyer,
+Microprose, etc.
+
+
+The following is a copy of the license from the DatChecker source code
+web site <http://datchecker.codeplex.com/>, although as of April 19, 2013
+that source code was from version 1.11 rather than from version 1.12.
+
+The MIT License (MIT)
+
+Copyright (c) 2012 Lee Neuse
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software
+is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included
+in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES
+OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE
+OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.

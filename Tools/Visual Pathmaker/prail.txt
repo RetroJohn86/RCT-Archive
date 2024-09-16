@@ -1,0 +1,9 @@
+4
+Standard Railing
+PRAIL1.PTH
+Comb Railing
+COMBRAIL.PTH
+Dirt Railing
+DIRTRAIL.PTH
+Space Railing
+SPRAIL.PTH

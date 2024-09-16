@@ -1,0 +1,9 @@
+4
+Standard Queue Railing
+QRAIL1.PTH
+Comb Railing
+COMBQRAIL.PTH
+Roman Numeral Queue Railing
+DIRTQRAIL.PTH
+Space Queue Railing
+SPQRAIL.PTH
