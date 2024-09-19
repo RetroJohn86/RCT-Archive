@@ -1,0 +1,37 @@
+{
+    "id": "projectionist.music.harpsichord",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/Organ_Concerto_BWV_593.ogg",
+                "name": "Bach Organ Concerto in A minor, BWV 593",
+                "composer": "Johann Sebastian Bach performed by Martin Neary (CC) (PD)"
+            },
+            {
+                "source": "music/Concerto_G_Major_BWV_592.ogg",
+                "name": "Bach Concerto in G Major, BWV 592",
+                "composer": "Johann Sebastian Bach performed by Martin Neary (CC) (PD)"
+            },
+            {
+                "source": "music/Suite_C_minor_for_two_harpsichords.ogg",
+                "name": "Händel Suite in c-minor for two harpsichords",
+                "composer": "Georg Friedrich Händel performed by Northern Chamber Orchestra and Choir (CC) (PD)"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Harpsichord style"
+        }
+    }
+}

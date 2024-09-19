@@ -1,0 +1,57 @@
+{
+    "id": "projectionist.music.paris_waltz",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/french-waltz-musette-202799.ogg",
+                "name": "French Waltz Musette",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/java-musette-200936.ogg",
+                "name": "Java Musette",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/musette-waltz-201730.ogg",
+                "name": "Musette Waltz",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/paso-musette-202596.ogg",
+                "name": "Paso Musette",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/tango-in-paris-206100.ogg",
+                "name": "Tango in Paris",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/tour-de-france-206115.ogg",
+                "name": "Tour de France",
+                "composer": "Jerome Chauvel from Pixabay"
+            },
+            {
+                "source": "music/waltz-musette-208658.ogg",
+                "name": "Waltz Musette",
+                "composer": "Jerome Chauvel from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Paris Waltz style"
+        }
+    }
+}

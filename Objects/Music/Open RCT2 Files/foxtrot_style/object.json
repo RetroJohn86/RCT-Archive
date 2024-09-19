@@ -1,0 +1,47 @@
+{
+    "id": "projectionist.music.foxtrot",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/frankie_and_johnnie.ogg",
+                "name": "Frankie And Johnnie",
+                "composer": "Bunny Berigan and his Orchestra"
+            },
+            {
+                "source": "music/I’m_coming_virginia.ogg",
+                "name": "I'm Coming Virginia",
+                "composer": "Sidney Bechet and his New Orleans Feetwarmers"
+            },
+            {
+                "source": "music/ballin_the_jack.ogg",
+                "name": "Ballin' the Jack",
+                "composer": "Jelly-Roll Morton's New Orleans Jazzmen"
+            },
+            {
+                "source": "music/one_oclock_jump.ogg",
+                "name": "One o'clock jump",
+                "composer": "Sidney Bechet and his New Orleans Feetwarmers"
+            },
+            {
+                "source": "music/buddy_bolden_stomp.ogg",
+                "name": "Buddy Bolden Stomp",
+                "composer": "Sidney Bechet Quartet"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Foxtrot style"
+        }
+    }
+}

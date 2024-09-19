@@ -1,0 +1,77 @@
+{
+    "id": "projectionist.music.neworleans",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/down_in_jungle_town.ogg",
+                "name": "Down In Jungle Town",
+                "composer": "Red Allen And His Orchestra"
+            },
+            {
+                "source": "music/way_down_yonder.ogg",
+                "name": "Way Down Yonder in New Orleans",
+                "composer": "Sidney Bechet and his Blue Note Jazzmen"
+            },
+            {
+                "source": "music/lily_of_the_valley.ogg",
+                "name": "Lily of The Valley",
+                "composer": "Paul Barbarin's New Orleans Band"
+            },
+            {
+                "source": "music/hop_scop_blues.ogg",
+                "name": "New Orleans Hop Scop Blues",
+                "composer": "Jimmie Noone And His Orchestra"
+            },
+            {
+                "source": "music/new_orleans_masquerade.ogg",
+                "name": "New Orleans Masquerade",
+                "composer": "Zepp Meissner Dixieland Band"
+            },
+            {
+                "source": "music/maple_leaf_rag.ogg",
+                "name": "Maple leaf Rag",
+                "composer": "Sidney Bechet and his New Orleans Feetwarmers"
+            },
+            {
+                "source": "music/sweetie_dear.ogg",
+                "name": "Sweetie dear",
+                "composer": "Sidney Bechet and his New Orleans Feetwarmers"
+            },
+            {
+                "source": "music/12th_street_rag.ogg",
+                "name": "12th Street Rag",
+                "composer": "Sidney Bechet and his New Orleans Feetwarmers"
+            },
+            {
+                "source": "music/jazz_band_ball.ogg",
+                "name": "At The Jazz Band Ball",
+                "composer": "Bix Beiderbecke And His Orchestra"
+            },
+            {
+                "source": "music/doctor_jazz.ogg",
+                "name": "Doctor Jazz",
+                "composer": "The Yorkshire Jazz Band"
+            },
+            {
+                "source": "music/original_dixieland.ogg",
+                "name": "Original Dixieland Jazz Band",
+                "composer": "Jimmy McPartland and His Squirrels"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "New Orleans Jazz style"
+        }
+    }
+}

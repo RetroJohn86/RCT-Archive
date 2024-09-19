@@ -1,0 +1,42 @@
+{
+    "id": "projectionist.music.paris_jazz",
+    "authors": [
+        "projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/french-jazz-music-142911.ogg",
+                "name": "French Jazz Music",
+                "composer": "William_King from Pixabay"
+            },
+            {
+                "source": "music/french-gypsy-mood-146458.ogg",
+                "name": "French Gypsy Mood",
+                "composer": "Vitalii Korol from Pixabay"
+            },
+            {
+                "source": "music/village-vibe-166811.ogg",
+                "name": "Village Vibe",
+                "composer": "William_King from Pixabay"
+            },
+            {
+                "source": "music/french-mood-161417.ogg",
+                "name": "French Mood",
+                "composer": "William_King from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Paris Manouche Jazz style"
+        }
+    }
+}

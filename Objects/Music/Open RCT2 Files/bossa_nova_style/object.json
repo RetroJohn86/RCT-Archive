@@ -1,0 +1,52 @@
+{
+    "id": "projectionist.music.bossanova",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/podcast-bossa-nova.ogg",
+                "name": "Podcast Bossa Nova Jazz Relaxing Music",
+                "composer": "Music by Denis Pavlov from Pixabay"
+            },
+            {
+                "source": "music/piano-jazz-bossa-nova.ogg",
+                "name": "Piano Jazz Bossa Nova Cozy Café Coffee Shop Music",
+                "composer": "Music by Denis Pavlov from Pixabay"
+            },
+            {
+                "source": "music/jazz-brazilian-bossa-nova.ogg",
+                "name": "Jazz Brazilian Bossa Nova Acoustic Guitar Podcast Music",
+                "composer": "Music by Denis Pavlov from Pixabay"
+            },
+            {
+                "source": "music/brazilian-bossa-nova.ogg",
+                "name": "Brazilian Bossa Nova Jazz Acoustic Guitar Podcast Music",
+                "composer": "Music by Denis Pavlov from Pixabay"
+            },
+            {
+                "source": "music/bossa-nova-by-acoustic.ogg",
+                "name": "Bossa Nova by Acoustic Guitar (Relaxing Jazz Nylon Guitar)",
+                "composer": "Music by William_King from Pixabay"
+            },
+            {
+                "source": "music/el-rio-bossa-nova.ogg",
+                "name": "El Rio Bossa Nova (Relaxing Acoustic Jazz Nylon Guitar)",
+                "composer": "Music by William_King from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Bossa Nova style"
+        }
+    }
+}

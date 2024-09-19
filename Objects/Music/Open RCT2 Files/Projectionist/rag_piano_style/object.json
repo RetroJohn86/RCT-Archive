@@ -1,0 +1,52 @@
+{
+    "id": "projectionist.music.ragpiano",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/ragtime-sleepy-lou.ogg",
+                "name": "Ragtime - Sleepy Lou (1906) - Irene M. Giblin",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/ragtime-polly-prim.ogg",
+                "name": "Ragtime - Polly Prim (1904) - S.R. Henry",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/grande-tarantelle.ogg",
+                "name": "Grande Tarantelle (1872) - Op. 67 - L. M. Gottschalk",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/chicken-tango.ogg",
+                "name": "Chicken Tango (1914) - E. J. Stark",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/wild-grapes-rag.ogg",
+                "name": "Wild Grapes Rag (1910) - Clarence Jones",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/bohemia-rag.ogg",
+                "name": "Bohemia Rag (1919) - Joseph Lamb",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Rag Piano style"
+        }
+    }
+}

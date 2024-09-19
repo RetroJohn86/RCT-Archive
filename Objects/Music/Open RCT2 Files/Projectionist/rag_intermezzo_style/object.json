@@ -1,0 +1,62 @@
+{
+    "id": "projectionist.music.ragintermezzostyle",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/grande-tarantelle.ogg",
+                "name": "Grande Tarantelle (1872) - Op. 67 - L. M. Gottschalk",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/musette.ogg",
+                "name": "Musette (1907) - Neil Moret",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/cake-walk.ogg",
+                "name": "Cake Walk - Kerry Mills (1915)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/banjo-no-2.ogg",
+                "name": "Banjo No. 2 - L. M. Gottschalk (1852)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/lily-of-the-prairie.ogg",
+                "name": "Lily of the Prairie - Kerry Mills (1909)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/diamonds-and-rubies.ogg",
+                "name": "Diamonds and Rubies - Nellie Stokes (1909)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/la-partida-valse.ogg",
+                "name": "La Partida - Valse Venezuelienne",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/wild-west.ogg",
+                "name": "Wild West (1908) - Percy Wenrich",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Rag Intermezzo style"
+        }
+    }
+}

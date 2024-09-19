@@ -1,0 +1,52 @@
+{
+    "id": "projectionist.music.ragstrings",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/ragtime-sleepy-lou.ogg",
+                "name": "Ragtime - Sleepy Lou (1906) - Irene M. Giblin",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/ragtime-polly-prim.ogg",
+                "name": "Ragtime - Polly Prim (1904) - S.R. Henry",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/that-fascinating-ragtime-glide.ogg",
+                "name": "That Fascinating Ragtime Glide - Kerry Mills (1910)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/bohemia-rag.ogg",
+                "name": "Bohemia Rag (1919) - Joseph Lamb",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/dreamy-rag.ogg",
+                "name": "Dreamy Rag - Ethel M. McKray (1912)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            },
+            {
+                "source": "music/sunflower-tickle.ogg",
+                "name": "Sunflower Tickle - Percy Wenrich (1908)",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Rag Strings style"
+        }
+    }
+}

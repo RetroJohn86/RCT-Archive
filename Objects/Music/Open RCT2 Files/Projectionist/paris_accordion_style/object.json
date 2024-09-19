@@ -1,0 +1,37 @@
+{
+    "id": "projectionist.music.paris_accordion",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/a-walk-in-paris-126173.ogg",
+                "name": "A Walk in Paris",
+                "composer": "Yevhen Onoychenko from Pixabay"
+            },
+            {
+                "source": "music/luna-park-accordion-music-3835.ogg",
+                "name": "Luna Park Accordion Music",
+                "composer": "Julius H. from Pixabay"
+            },
+            {
+                "source": "music/water-waltz-165_render-209270.ogg",
+                "name": "Water Waltz 165",
+                "composer": "Won Jong Hwa from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Paris Accordion style"
+        }
+    }
+}

@@ -1,0 +1,91 @@
+{
+    "id": "projectionist.music.player_piano",
+    "authors": [
+        "projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/chaplin-116224.ogg",
+                "name": "Chaplin",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/charlie-chaplin-music-115443.ogg",
+                "name": "Charlie Chaplin Music",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/clown-118829.ogg",
+                "name": "Clown",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/comedian-117016.ogg",
+                "name": "Comedian",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/dog-waltz-115445.ogg",
+                "name": "Dog Waltz",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/funny-moment-116226.ogg",
+                "name": "Funny Moment - PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/in-the-saloon-116225.ogg",
+                "name": "In The Saloon",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/ragtime-115446.ogg",
+                "name": "Ragtime",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/saloon-115448.ogg",
+                "name": "Saloon",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/silent-movie-114929.ogg",
+                "name": "Silent Movie",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/vintage-comedy-115449.ogg",
+                "name": "Vintage Comedy",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/vintage-movie-116223.ogg",
+                "name": "Vintage Movie",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/vintage-piano-115447.ogg",
+                "name": "Vintage Piano",
+                "composer": "PianoAmor from Pixabay"
+            },
+            {
+                "source": "music/western-115444.ogg",
+                "name": "Western",
+                "composer": "PianoAmor from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Player Piano style"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": "projectionist.music.tetrispiano",
+    "authors": [
+        "Projectionist"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "music/tetris-piano.ogg",
+                "name": "Tetris Theme - Korobeiniki",
+                "composer": "Music by Gregor Quendel from Pixabay"
+            }
+        ]
+    },
+    "images": [
+        {
+            "path": "images/cover.png"
+        }
+    ],
+    "strings": {
+        "name": {
+            "en-GB": "Tetris Piano style"
+        }
+    }
+}
