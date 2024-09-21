@@ -1,0 +1,98 @@
+There are several "Hot Keys" in RCT2, though it is possible to play RCT2 using only the mouse, there are several "Hot Keys" that will help speen things up:
+Close topmost window
+	
+Backspace
+Close all floating Windows
+	
+Shift + Backspace
+Cancel Construction Mode
+	
+
+Esc.
+Pause Game
+	
+Pause
+Zoom out
+	
+Page Up
+Zoom in
+	
+Page Down
+Rotate View
+	
+Enter
+Rotate Construction Object
+	
+Z
+Underground View Toggle
+	
+1
+Remove Base Land
+	
+H
+Remove Vertical LandToggle
+	
+V
+See-through rides
+	
+3
+See-through scenery
+	
+4
+Invisible Supports
+	
+5
+Invisible guests
+	
+6
+Height Marks on land
+	
+8
+Height Marks on ride tracks
+	
+9
+Height Marks on paths
+	
+0
+Adjust Land
+	
+F1
+Adjust Water
+	
+F2
+Build Scenery
+	
+F3
+Build Paths
+	
+F4
+Build New Ride
+	
+F5
+Financial Information
+	
+F
+Research Information
+	
+D
+Rides/ Attractions List
+	
+R
+Park Information
+	
+P
+Guest List
+	
+G
+Staff List
+	
+S
+Recent Messages
+	
+M
+Show Map
+	
+Tab
+Take Screenshot
+	
+Ctrl + S
