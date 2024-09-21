@@ -1,0 +1,380 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\toilet.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\toilet.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About toilet"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "toilet Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2003",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_TOILET_DIALOG DIALOGEX 0, 0, 465, 293
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "toilet"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Exit",IDOK,408,272,50,14
+    LTEXT           "Decode File Name:",IDC_STATIC,7,30,69,11
+    EDITTEXT        IDC_FILENAME,81,30,183,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Load",IDC_LOAD,275,30,41,17
+    PUSHBUTTON      "Build",IDC_PROCESS,85,264,84,22
+    PUSHBUTTON      "Disassemble",IDC_DIS,7,112,75,22
+    LTEXT           "Build File Name (8 Characters)",IDC_STATIC,7,55,99,11
+    EDITTEXT        IDC_BUILD_FILE,108,52,200,15,ES_AUTOHSCROLL
+    LTEXT           "Name String:",IDC_STATIC,7,81,46,11
+    EDITTEXT        IDC_NAME,57,81,248,13,ES_AUTOHSCROLL
+    LTEXT           "Description:",IDC_STATIC,7,95,46,16
+    EDITTEXT        IDC_DESC,57,95,248,13,ES_AUTOHSCROLL
+    LTEXT           "Working Directory",IDC_STATIC,7,6,69,11
+    EDITTEXT        IDC_DIRECTORY,81,6,183,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Set",IDC_SET_DIR,275,6,41,17
+    CONTROL         "Invert Base Image",IDC_INVERT,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,7,275,73,11
+    GROUPBOX        "Color Change 1",IDC_STATIC,161,117,143,144
+    CONTROL         "Olive 22",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,131,46,14
+    CONTROL         "Brown 34",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,145,46,14
+    CONTROL         "Yellow 46",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,159,46,14
+    CONTROL         "Dark Red 58",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,174,56,14
+    CONTROL         "Green1 70",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,187,46,14
+    CONTROL         "Green2 82",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,201,46,14
+    CONTROL         "Green3 94",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,215,46,14
+    CONTROL         "Red/Brown 106",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,230,66,14
+    CONTROL         "Indigo 118",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,167,243,46,14
+    CONTROL         "Blue 130",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,131,46,14
+    CONTROL         "Olive2 142",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,145,46,14
+    CONTROL         "Purple 154",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,159,46,14
+    CONTROL         "Red 166",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,174,56,14
+    CONTROL         "Orange 178",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,187,60,14
+    CONTROL         "Sea Blue 190",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,201,66,14
+    CONTROL         "Magenta 202",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,237,215,58,14
+    CONTROL         "Brown2 214",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,238,229,66,14
+    PUSHBUTTON      "Extract Bitmaps",IDC_BMPS,7,140,75,22
+    GROUPBOX        "Color Change 2",IDC_STATIC,315,116,143,144
+    CONTROL         "Olive 22",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,130,46,14
+    CONTROL         "Brown 34",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,144,46,14
+    CONTROL         "Yellow 46",IDC_CHECK20,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,158,46,14
+    CONTROL         "Dark Red 58",IDC_CHECK21,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,173,56,14
+    CONTROL         "Green1 70",IDC_CHECK22,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,186,46,14
+    CONTROL         "Green2 82",IDC_CHECK23,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,200,46,14
+    CONTROL         "Green3 94",IDC_CHECK24,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,214,46,14
+    CONTROL         "Red/Brown 106",IDC_CHECK25,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,229,66,14
+    CONTROL         "Indigo 118",IDC_CHECK26,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,321,242,46,14
+    CONTROL         "Blue 130",IDC_CHECK27,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,130,46,14
+    CONTROL         "Olive2 142",IDC_CHECK28,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,144,46,14
+    CONTROL         "Purple 154",IDC_CHECK29,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,158,46,14
+    CONTROL         "Red 166",IDC_CHECK30,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,173,56,14
+    CONTROL         "Orange 178",IDC_CHECK31,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,186,60,14
+    CONTROL         "Sea Blue 190",IDC_CHECK32,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,200,66,14
+    CONTROL         "Magenta 202",IDC_CHECK33,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,391,214,58,14
+    CONTROL         "Brown2 214",IDC_CHECK34,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,392,228,66,14
+    GROUPBOX        "Object Type",IDC_STATIC,327,6,131,46
+    CONTROL         "Ride/Shop",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,334,
+                    18,112,15
+    CONTROL         "Path",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,334,32,112,
+                    15
+    LTEXT           "Transparent Color",IDC_STATIC,7,239,63,9
+    EDITTEXT        IDC_TRANS,75,236,35,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Tweak Ride Parameters",IDC_TWRIDE,7,197,80,22
+END
+
+IDD_TWEAK DIALOG DISCARDABLE  0, 0, 482, 180
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tweak Ride"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "Save",IDOK,364,153,55,14
+    PUSHBUTTON      "Cancel",IDCANCEL,425,153,50,14
+    GROUPBOX        "Ride Type",IDC_STATIC,7,7,297,50
+    COMBOBOX        IDC_COMBO1,23,34,122,53,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,153,34,122,53,CBS_DROPDOWNLIST | WS_VSCROLL | 
+                    WS_TABSTOP
+    LTEXT           "Base:",IDC_STATIC,24,20,118,10
+    LTEXT           "Alternate:",IDC_STATIC,155,20,122,10
+    GROUPBOX        "Ride Statistics",IDC_STATIC,307,7,168,116
+    LTEXT           "Excitement:",IDC_STATIC,315,25,41,10
+    EDITTEXT        IDC_EXCITEMENT,363,24,104,15,ES_AUTOHSCROLL
+    LTEXT           "Intensity:",IDC_STATIC,315,47,41,10
+    EDITTEXT        IDC_INTENSITY,363,46,104,15,ES_AUTOHSCROLL
+    LTEXT           "Nausea:",IDC_STATIC,315,69,41,10
+    EDITTEXT        IDC_NAUSEA,363,68,104,15,ES_AUTOHSCROLL
+    LTEXT           "Note: Most rides have preset base values for these.  The numbers here increase those values.",
+                    IDC_STATIC,315,91,152,29
+    GROUPBOX        "Ride Properties",IDC_STATIC,7,62,146,103
+    CONTROL         "Ride Is Covered",IDC_COVERED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,76,127,16
+    CONTROL         "Riders Get Wet",IDC_GETWET,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,92,127,16
+    CONTROL         "Allow Color 1 Remap",IDC_REMAP,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,108,127,16
+    CONTROL         "Allow Color 2 Remap",IDC_REMAP2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,124,127,16
+    CONTROL         "Allow Color 3 Remap",IDC_REMAP3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,140,127,16
+    GROUPBOX        "Riders",IDC_STATIC,159,62,143,103
+    EDITTEXT        IDC_RIDERS,220,77,75,12,ES_AUTOHSCROLL
+    LTEXT           "Riders/Car:",IDC_STATIC,165,79,51,11
+    EDITTEXT        IDC_SPECIAL,220,92,75,12,ES_AUTOHSCROLL
+    LTEXT           "# Special Cars:",IDC_STATIC,166,93,51,11
+    CONTROL         "Riders ride in pairs",IDC_PAIRS,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,166,109,127,16
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "toilet MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "toilet\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "toilet.EXE\0"
+            VALUE "ProductName", "toilet Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_TOILET_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 458
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 286
+    END
+
+    IDD_TWEAK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 475
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 173
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_TWEAK DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 15, 0
+0x7254, 0x6e61, 0x7073, 0x726f, 0x6174, 0x6974, 0x6e6f, "\000" 
+    IDC_COMBO1, 0x403, 7, 0
+0x6547, 0x746e, 0x656c, "\000" 
+    IDC_COMBO1, 0x403, 14, 0
+0x6f52, 0x6c6c, 0x7265, 0x6f63, 0x7361, 0x6574, 0x0072, 
+    IDC_COMBO1, 0x403, 7, 0
+0x6854, 0x6972, 0x6c6c, "\000" 
+    IDC_COMBO1, 0x403, 6, 0
+0x6157, 0x6574, 0x0072, 
+    IDC_COMBO2, 0x403, 15, 0
+0x7254, 0x6e61, 0x7073, 0x726f, 0x6174, 0x6974, 0x6e6f, "\000" 
+    IDC_COMBO2, 0x403, 7, 0
+0x6547, 0x746e, 0x656c, "\000" 
+    IDC_COMBO2, 0x403, 14, 0
+0x6f52, 0x6c6c, 0x7265, 0x6f63, 0x7361, 0x6574, 0x0072, 
+    IDC_COMBO2, 0x403, 7, 0
+0x6854, 0x6972, 0x6c6c, "\000" 
+    IDC_COMBO2, 0x403, 6, 0
+0x6157, 0x6574, 0x0072, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About toilet..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\toilet.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
