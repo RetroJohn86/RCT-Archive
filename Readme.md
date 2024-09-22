@@ -4,13 +4,13 @@
 **+** __**Repository Info**__
 
 As from the September 2024, the Download Size for this Repo is : **441 MB** ( Please Note The Size Can Change At Anytime Due Too Updates. )
-**This Repository is of all Roller Coaster Tycooon Stuff i Founded Online and via Game Downloads**
+**This Repository is of all Roller Coaster Tycooon Stuff, i've Founded Online and via Game Downloads**
 
-If you are looking too play this Game, It can be downloaded via openrct2.org and blog site.
+If you are looking too play this Game, It can be downloaded via openrct2.org and blog site. also note you dont need a copy rct to play check discord for more info.
 
 __**Files and Folder Structure.**__
 
-Landscapes, Objects, Others, Scenarios, Tools, Tracks and More.
+Documents, Images, Landscapes, Objects, Scenarios, Tools, Tracks and Others.
 
 
 ## __**Disclaimer**__
