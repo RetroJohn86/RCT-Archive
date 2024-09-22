@@ -1,0 +1,21 @@
+{
+    "id": "auraspecs.music.CRABRAVE.parkobj",
+    "authors": [
+        "<Noisestorm"
+    ],
+    "version": "1.0",
+    "objectType": "music",
+    "properties": {
+        "tracks": [
+            {
+                "source": "CrabRave.wav",
+                "name": "<Crab Rave>"
+            }
+        ]
+    },
+    "strings": {
+        "name": {
+            "en-GB": "Crab Rave - Noisestorm"
+        }
+    }
+}

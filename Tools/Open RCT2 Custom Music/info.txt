@@ -1,0 +1,1 @@
+wav Project Rate must be 22050Hz
